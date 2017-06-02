@@ -1,4 +1,4 @@
-var targetNumber; //нешняя переменная числа
+var targetNumber; //внешняя переменная числа
 function setNumber() { //загадываем число
   targetNumber=parseInt(Math.random()*100); //генерация случайного числа от 0 до 100
   if (targetNumber==0) { //если число загаданно 0
